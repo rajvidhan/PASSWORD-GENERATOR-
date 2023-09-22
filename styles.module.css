@@ -1,0 +1,110 @@
+body{
+    background: linear-gradient(231deg, rgba(22, 6, 40, 1) 0%, rgba(52, 28, 79, 1) 50%, rgba(88, 7, 125, 1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.container{
+    background-color:hsl(268, 75%, 9%);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px #00000011;
+    width: 90%;
+    max-width: 400px;
+   
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top:15%;
+}
+
+
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(268, 60%, 44%);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.generatebtn{
+    width: 100%;
+    font-size: 16px;
+    
+}
+.copybtn{
+    height: 30px;
+    font-size: 10px;
+}
+.copybtn:hover{
+    font-size: 15px;
+    border-radius: 10px;
+    height: 45px;
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 0 5px  #416392, 0 0 25px  #416392, 0 0 50px  #416392, 0  0 200px  #416392;
+    transform: scale(1);
+    transition: 2s;
+}
+.charlength{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.charlength span{
+    width: 100%;
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+.checkboxes{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+.checkboxes div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.error{
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.rangestyle{
+    width: 100%;
+    height: 0.75rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cbox{
+    width: 20px;
+    height: 20px;
+   
+}
